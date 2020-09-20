@@ -19,17 +19,15 @@ npm run test
 
 To execute depop tests on browser stack use but you need to update user name and key before running command: `npm run browserStack`
 
-### Open HTML Reports from below location
+### Reporters
+
+WebdriverIO uses several different types of test reporters to communicate pass/failure.Screenshots will be taken across each step and utilized multiple cucumber automation framework. Open HTML reports using below command.
 
 run command: `open test/reports/index.html`
 
 ### Config Files
 
 WebdriverIO uses configuration files to setup and execute tests in specific ways. The configuration is fully customizable, and different functions can be invoked before, during and after each test or test suite. Config files can be found in the `/test/config/` directory and all end with `*.conf.js`. These can be called via the the cli
-
-### Reporters
-
-WebdriverIO uses several different types of test reporters to communicate pass/failure.
 
 ### The Page Object Design Pattern
 
